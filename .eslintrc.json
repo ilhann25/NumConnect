@@ -1,0 +1,10 @@
+{
+    "env": {
+      "es2020": true,
+      "browser": true
+    },
+    "globals": {
+      "BigInt": "readonly"
+    }
+  }
+  

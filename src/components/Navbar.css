@@ -1,0 +1,71 @@
+/* Navbar'ın arka planını açık mavi yapar ve boyutunu büyütür */
+.custom-navbar {
+  background-color:#36b6ba; /* Açık mavi */
+  padding:  0.5rem 1rem; /* Navbar'ı büyütmek için ekstra boşluk */
+  font-size: 1.1rem; /* Yazı boyutunu büyütür */
+  height: 50px;
+ 
+}
+
+/* Dropdown menü öğeleri */
+.custom-navbar .dropdown-menu {
+  background-color: #ffffff; /* Varsayılan beyaz */
+  border: 1px solid #ddd; /* Hafif kenarlık */
+}
+
+
+/* Navbar'daki aktif bağlantı */
+.custom-navbar .nav-link.active {
+  color: #ffffff; /* Aktif bağlantıyı beyaz yap */
+  font-weight: bold; /* Kalın yazı tipi */
+}
+
+/* Navbar'daki tüm bağlantılar hover'da renk değiştirir */
+.custom-navbar .nav-link:hover {
+  color: #333; /* Daha koyu renk */
+}
+
+.social-links {
+  display: flex;
+  gap: 10px;
+}
+
+.social-icon {
+  color: #ffffff; /* İkonların rengi */
+  font-size: 1rem; /* İkon boyutu */
+  text-decoration: none;
+  font-family: "Font Awesome 5 Free", "Font Awesome"; /* Font Awesome’ın yedeği */
+  display: flex;
+  gap: 10px;
+  margin-right: 10px; /* Sağ taraftan mesafe ekler */
+
+}
+
+
+.social-icon:hover {
+  color: #000000; /* Hover durumunda ikon rengi değişir */
+}
+
+.nav-item .dropdown-menu {
+  background-color: #e0e8ee; /* Açık arka plan */
+  border-radius: 18px; /* Yuvarlatılmış köşeler */
+  border: 1px solid #ddd; /* Daha ince kenarlık */
+  box-shadow: 0 4px 8px rgba(3, 1, 1, 0.1); /* Hafif gölge */
+  overflow: hidden;
+}
+
+.nav-item .dropdown-menu .dropdown-item {
+  padding: 6px 30px; /* Daha geniş iç boşluk */
+  font-size: 17px; /* Daha büyük yazı */
+  color: #333; /* Metin rengi */
+  transition: background-color 0.1s ease, color 0.1s ease; /* Geçiş efekti */
+  border-radius: 0;
+}
+
+.nav-item .dropdown-menu .dropdown-item:hover {
+  background-color: #718aa4; /* Hover için renk */
+  color: #fff; /* Hover yazı rengi */
+  
+}
+
+
